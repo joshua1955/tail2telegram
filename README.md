@@ -3,10 +3,12 @@ By this project on bash you can send log information to your telegram account or
 
 # How to use
 sender.sh wait text on stdin 
+
 Ex:
 echo test | ./sender.sh
 
 You should specify a time to check and file.
+
 
 Ex:
 ./time.sh -s 2 -f /var/log/auth.log
